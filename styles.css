@@ -1,0 +1,29 @@
+.body {
+  font-family: monospace;
+  background-color: #58595b;
+}
+
+.well {
+    background-color: #a7a8aa;
+}
+
+.input {
+  padding-left: 300px;
+}
+
+.update-form {
+  padding-left: 280px;
+}
+
+.table-data {
+padding-left: 10px; 
+}
+
+#records {
+  background-color: #d6d8db;
+}
+
+h2 {
+text-align: center;
+  color: #696c70;
+}

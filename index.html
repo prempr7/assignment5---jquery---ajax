@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- Latest compiled and minified CSS -->
+
+    <!-- Latest compiled and minified JavaScript -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="styles.css">
+        <title>JQuery Ajax Tutorial</title>
+  </head>
+
+  <body>
+    <div class="row">
+        <header>
+              <div class="well">
+      				<h2>Employees Database</h1>
+              </div>
+        </header>
+
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 well input" id="adduser">
+            <h4>Add New Detail</h4>
+            <table>
+              <div class="table-data">
+              <td>Name:</td> <td><input type="text" id="Name"></td>
+              <td>DOB:</td> <td> <input type="text" id="DOB"></td>
+              <td>Email:</td> <td> <input type="text" id="Email"></td>
+              <td>Address:<td> <td> <input type="text" id="Address"></td>
+              <td><button class='btn btn-primary btn-sm' id="add-user">Add</button></td>
+            </div>
+            </table>
+        </div>
+
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <table class="table-responsive well update-form" id="updatetable" >
+          <thead>
+            <th>Id</th>
+            <th>Name</th>
+            <th>DOB</th>
+            <th>Email</th>
+            <th>Address</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td><input type="text" name="" value="" id="saveId" readonly="true"></td>
+              <td><input id="saveName" value=""></td>
+              <td><input id="saveDob" value=""></td>
+              <td><input id="saveEmail" value=""></td>
+              <td><input id="saveAdd" value=""></td>
+              <td><button type="button" class="btn-primary" data-toggle="button" name="button" id="save">Save</button></td>
+            </tr>
+          </tbody>
+        </div>
+        </table>
+
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="records">
+          <h2>Employee Details</h2>
+          <table class="table table-responsive  table-striped display" id="users">
+              <thead>
+                <th>Name</th>
+                <th>DOB</th>
+                <th>Email</th>
+                <th>Address</th>
+              </thead>
+              <tbody>
+              </tbody>
+          </table>
+        </div>
+    </div>
+  </body>
+</html>
